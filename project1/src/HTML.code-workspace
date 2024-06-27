@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "../../../HTML"
+		},
+		{
+			"path": "../../../Paint_complete"
+		},
+		{
+			"path": "../../../DownLoad/html_project"
+		},
+		{
+			"path": "../../../data"
+		},
+		{
+			"path": "../../../JavaScript"
+		},
+		{
+			"path": "../../../New_React"
+		},
+		{
+			"path": "../../../GAF/my_gym"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../College Project"
+		},
+		{
+			"path": "../../../Node JS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Paint_complete"
+	}
+}

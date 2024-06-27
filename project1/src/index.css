@@ -1,0 +1,49 @@
+/*  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Custom Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1d1d1d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #313131;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3e3e3e;
+  border-radius: 10px;
+}
+
+.cards .card:hover{
+  transform: scale(1.1);
+  transition:1s;
+  background-color: white;
+}
+
+.cards:hover>.card:not(:hover){
+  filter: blur(5px);
+  transform: scale(0.9);
+  transition:1s;
+}
